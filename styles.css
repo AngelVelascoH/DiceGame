@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+body {
+  background-color: #1b1a17;
+  margin: 0;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+  -webkit-user-drag: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+.flex-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+#main-title {
+  text-align: center;
+  font-family: "Bangers", cursive;
+  font-size: 5rem;
+  letter-spacing: 7px;
+  color: #f0a500;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.dice {
+  text-align: center;
+  font-family: "Bangers", cursive;
+  font-size: 3rem;
+  letter-spacing: 5px;
+  color: #e6d5b8;
+  margin-inline: 7rem;
+  width: 300px;
+  height: 300px;
+  background-color: #e45826;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15%;
+  border: 5px solid #e6d5b8;
+}
+footer {
+  background-color: #e45826;
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: #e6d5b8;
+}
+a {
+  color: #1b1a17;
+  font-size: 2rem;
+  font-family: "Bangers", cursive;
+  border: 1px solid #f0a500;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #f0a500;
+
+  transition: 300ms;
+}
+a:hover {
+  box-shadow: 5px 5px #e6d5b8;
+  transition: 300ms;
+  cursor: pointer;
+}
+.dice-face {
+  display: flex;
+  margin: 3rem;
+  flex-direction: row;
+  justify-content: center;
+  row-gap: 50px;
+  column-gap: 100px;
+  flex-wrap: wrap;
+}
+.point {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+}
+.pointb {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #e45826;
+}
