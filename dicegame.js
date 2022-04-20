@@ -7,8 +7,8 @@ var winner = 0;
 rollBtn.addEventListener("click", function (e) {
   numbers[0] = Math.round(Math.random() * 5) + 1;
   numbers[1] = Math.round(Math.random() * 5) + 1;
-  dice1.setAttribute("src", "/images/dice" + numbers[0] + ".png");
-  dice2.setAttribute("src", "/images/dice" + numbers[1] + ".png");
+  dice1.setAttribute("src", "images/dice" + numbers[0] + ".png");
+  dice2.setAttribute("src", "images/dice" + numbers[1] + ".png");
   if (numbers[0] > numbers[1]) {
     winner = 1;
   } else if (numbers[0] < numbers[1]) {
